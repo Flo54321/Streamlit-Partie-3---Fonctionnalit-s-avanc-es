@@ -1,0 +1,27 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    Flo:
+      email: flo@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: Flo
+      password: abc
+      roles:
+      - admin
+      - editor
+      - viewer
+oauth2:
+  google:
+    client_id: ''
+    client_secret: ''
+    redirect_uri: ''
+  microsoft:
+    client_id: ''
+    client_secret: ''
+    redirect_uri: ''
+    tenant_id: ''
+
