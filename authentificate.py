@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit_authenticator as stauth
 import yaml
 from yaml.loader import SafeLoader
-from streamlit_option_menu import option_menu  # Assure-toi que cette ligne est présente !
+from streamlit_option_menu import option_menu
 
 # Charger le fichier de configuration pour l'authentification
 with open('config.yaml') as file:
